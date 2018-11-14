@@ -26,7 +26,7 @@ webpush.setVapidDetails(
   privateVapidKey
 );
 app.get("/",(req,res)=>{
-  res.render('dashboard.php')
+  res.send("i m node")
 })
 // Subscribe Route
 app.post("/subscribe", (req, res) => {
