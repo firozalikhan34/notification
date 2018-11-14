@@ -1,0 +1,19 @@
+{
+  "name": "node_push_notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.4",
+    "express-php-fpm": "^2.0.2",
+    "nodemon": "^1.18.5",
+    "web-push": "^3.3.1"
+  }
+}
